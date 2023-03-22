@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width: 960px) {
+  body {
+    color: #606266;
+    overflow: auto;
+    height: 100%;
+    overflow-x: auto;
+  }
+}
+@media (min-width: 961px) {
+  body {
+    color: #606266;
+    min-width: 1280px;
+    overflow-x: auto;
+  }
+}
